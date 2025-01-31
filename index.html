@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Form Validation</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Shell - Welcome</title>
+  <link rel="stylesheet" href="Pizzaf.css">
 </head>
 <body>
-
-    <div class="container">
-        <h1 id="timestamp">Simple Form Validation</h1>
-        <form id="registrationForm">
-            <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
-            </div>
-            <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <button type="submit">Submit</button>
-        </form>
-        <p id="message"></p>
+  <div class="navbar">
+    <b><span>Crust<span class="one">Co.</span></span></b>
+    <div class="search-bar">
+      <form action="search.html" method="get">
+        <input type="text" name="query" placeholder="Search menu..." required>
+        <button type="submit">Search</button>
+      </form>
     </div>
-
-    <script src="script.js"></script>
+  </div>
+  <div id="home" class="container">
+    <h1>Welcome to Pizza House</h1>
+    <p>Your favorite pizza, just a click away. Sign in/Log in to explore the menu or learn more about us. <a href="file:///G:/HTML%20PRACTICE/javascript/learnmoref.html" class="learn">learn more...</a></p>
+    <div class="buttons">
+      <a href="signup.html" class="btn">Sign In</a>
+      <a href="login.html" class="btn">Log In</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Hometown Slices. All rights reserved.
+  </footer>
 </body>
 </html>
