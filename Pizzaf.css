@@ -1,0 +1,138 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('mast.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    span{
+        font-size: 45px;
+        margin-left: 20px;
+        font-family: Arial, sans-serif;
+        color: red;
+        
+    }
+    span.one{
+        color: white;
+        margin-left: 5px;
+        font-size: 32px;
+
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #e63946;
+    }
+
+    .search-bar {
+      margin-right: 20px;
+    }
+    p a{
+        text-decoration: none;
+        color: rgb(240, 223, 223);
+    }
+
+    .search-bar input[type="text"] {
+      padding: 8px;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      width: 200px;
+    }
+
+    .search-bar button {
+      padding: 8px 12px;
+      background-color: #e63946;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .search-bar button:hover {
+      background-color: #d62828;
+    }
+
+    /* Hero Section */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 25px;
+      font-size: 1em;
+      color: white;
+      background-color: #e63946;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #d62828;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #ccc;
+    }
+
